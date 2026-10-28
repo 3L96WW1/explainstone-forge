@@ -1,0 +1,23 @@
+# Gradle
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# 运行时
+run/
+runs/
+
+# 系统
+hs_err_pid*.log
+replay_pid*.log
+*.log
+
+# 备份包
+*.bundle

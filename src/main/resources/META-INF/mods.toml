@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MPL-2.0"
+
+[[mods]]
+modId="explainstone"
+version="1.0.0-beta+1.20.1"
+displayName="Explainstone and Songmelyn"
+authors="GINKA_3L96WW1"
+description='''
+Stone speakers for Minecraft 1.20.1 (Forge): play imported Ogg music, broadcast on channels, receive wirelessly.
+'''
+
+[[dependencies.explainstone]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.explainstone]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
